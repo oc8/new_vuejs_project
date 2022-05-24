@@ -3,15 +3,10 @@
 	<router-view />
 </template>
 
-<script>
+<script setup>
+import colors from '@/colors.js'
 import NavbarItem from './components/NavbarItem.vue';
 
-export default {
-	name: "App",
-	components: {
-    NavbarItem
-},
-};
 </script>
 
 <style>
@@ -19,6 +14,7 @@ export default {
   border: 0;
   font-size: 100%;
   font-family: inherit;
+  text-decoration: none;
 }
 *,
 ::before,
@@ -34,6 +30,7 @@ export default {
 	text-align: center;
 	color: #2c3e50;
 }
+a { color: black; }
 .column {
   display: flex;
   flex-direction: column;
