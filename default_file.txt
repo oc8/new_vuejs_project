@@ -5,10 +5,10 @@
 </template>
 
 <script setup>
-import colors from '@/colors.js'
+import colors from '@/utils/define.js'
 
 </script>
 
-<style>
+<style scoped>
 
 </style>
